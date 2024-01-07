@@ -8,7 +8,7 @@ def test_sample2():
     assert 4 == 10
 
 def test_get_request():
-    id = 1245
+    id = 538
     url = "https://restful-booker.herokuapp.com/booking/"
     full_url = url + str(id)
     print(full_url)
